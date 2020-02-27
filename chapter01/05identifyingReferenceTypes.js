@@ -28,6 +28,3 @@ console.log(object instanceof Object); // true
 console.log(object instanceof Array); // false
 console.log(reflect instanceof Function); // true
 console.log(reflect instanceof Object); // true
-
-// if your env is ECMAScript 5 compliant
-console.log(Array.isArray(items)); // true

@@ -4,7 +4,7 @@ var selection = "a";
 
 // numbers
 var count = 25;
-var cost = 1.51
+var cost = 1.51;
 
 // boolean
 var found = true;
@@ -32,14 +32,17 @@ console.log(color2);
 // identifying primitive types
 console.log("// identifying primitive types")
 
-console.log(typeof 10);
-console.log(typeof 5.1);
-console.log(typeof true);
+console.log(typeof "Nicholas"); // "string"
+console.log(typeof 10); // "number"
+console.log(typeof 5.1); // "number"
+console.log(typeof true); // "boolean"
 console.log(typeof undefined); // undefined
 
-console.log(typeof null); // x object
+console.log(typeof null); // object
+// the best way to determine if a variable is null
+// is to compareit against null directly
 var value;
-console.log(value === null); // ✓ true
+console.log(value === null); // true
 
 // comparing without coercion
 console.log("// comparing without coercion")
