@@ -1,5 +1,6 @@
-// There are three primitive wrapper types
-// String Number and Boolean
+// There are three primitive wrapper types String Number and Boolean.
+// These special reference types exist to make working with primitive 
+// values as easy as working with objects.
 
 // The primitive wrapper types are reference types that
 // are automatically created behind the scenes whenever 
@@ -20,7 +21,8 @@ console.log(firstChar);
 // an object, the javascript engine creates an instance of
 // String so that charAt(0) will work. The String object
 // exists only for one statement before it's destroyed.
-
+// To test this out, try adding a property to a string as if
+// it were a regular object.
 var name = "Nicholas";
 name.last = "Zakas";
 
@@ -77,7 +79,7 @@ console.log(typeof name); // "object"
 console.log(typeof count); // "object"
 console.log(typeof found); // "object"
 
-// creating an instance of the primitive wrapper type just creates
+// As you can see, creating an instance of the primitive wrapper type just creates
 // another object, which means that typeof can't identify the type
 // of data you intend to store.
 

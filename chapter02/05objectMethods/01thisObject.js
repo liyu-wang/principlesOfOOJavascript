@@ -9,6 +9,13 @@ person.sayName(); // outputs "Nicholas"
 
 // this obejct
 
+/*
+“Every scope in JavaScript has a this object that represents the calling object 
+for the function. In the global scope, this represents the global object 
+(window in web browsers). When a function is called while attached to an object,
+ the value of this is equal to that object by default.”
+*/
+
 var person = {
     name: "Nicholas",
     sayName: function() {
